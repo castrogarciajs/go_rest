@@ -2,8 +2,8 @@ package posts
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/sebastian009w/go_rest/database"
-	"github.com/sebastian009w/go_rest/models"
+	"github.com/sebastian009w/go_rest/app/models"
+	"github.com/sebastian009w/go_rest/platform/database"
 )
 
 func Index(ctx *fiber.Ctx) error {

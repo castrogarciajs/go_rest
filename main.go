@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "github.com/sebastian009w/go_rest/pkg/utils"
 
 func main() {
-	fmt.Println("Server succesfuly in port 3000")
+	utils.CreateServer(3000)
 }

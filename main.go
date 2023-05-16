@@ -10,5 +10,5 @@ func main() {
 	app := fiber.New()
 
 	app.Listen(":3000")
-	fmt.Println("http://localhost:3000")
+	fmt.Println("Server succesfuly in port 3000")
 }
